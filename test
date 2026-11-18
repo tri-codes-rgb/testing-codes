@@ -2,34 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Single-Load Multi-Page Site</title>
+  <title>Pure CSS Multi-Page Site</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Shared Navigation -->
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <main>
-    <!-- Put your default landing page last in the HTML -->
-    <section id="about" class="page">
-      <h1>About Us</h1>
-      <p>This loaded instantly without a page refresh.</p>
-    </section>
+  <!-- Page 1 -->
+  <section id="home" class="page">
+    <h1>Welcome Home</h1>
+    <p>This is the main landing page.</p>
+  </section>
 
-    <section id="contact" class="page">
-      <h1>Contact</h1>
-      <p>Get in touch with us here.</p>
-    </section>
+  <!-- Page 2 -->
+  <section id="about" class="page">
+    <h1>About Us</h1>
+    <p>Learn more about what we do here.</p>
+  </section>
 
-    <section id="home" class="page">
-      <h1>Welcome Home</h1>
-      <p>This is the default page view.</p>
-    </section>
-  </main>
+  <!-- Page 3 -->
+  <section id="contact" class="page">
+    <h1>Contact</h1>
+    <p>Get in touch with us.</p>
+  </section>
 
 </body>
 </html>
