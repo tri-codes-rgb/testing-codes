@@ -1,3 +1,27 @@
-body {
-  background-color: cyan;
+/* Hide all pages by default */
+.page {
+  display: none;
+  padding: 20px;
+}
+
+/* Show the page that matches the clicked #link */
+.page:target {
+  display: block;
+}
+
+/* Show the Home page by default on initial load (when no #target is active) */
+body:not(:has(.page:target)) #home {
+  display: block;
+}
+
+/* Basic Navigation Styling */
+nav {
+  background: #333;
+  padding: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
 }
