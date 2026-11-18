@@ -1,37 +1,12 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <title>Pure CSS Multi-Page Site</title>
-  <link rel="stylesheet" href="style.css">
-</head>
 <body>
-
-  <!-- Shared Navigation -->
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <!-- Page 1 -->
-  <section id="home" class="page">
-    <h1>Welcome Home</h1>
-    <p>This is the main landing page.</p>
-  </section>
-
-  <!-- Page 2 -->
-  <section id="about" class="page">
-    <h1>About Us</h1>
-    <p>Learn more about what we do here.</p>
-  </section>
-
-  <!-- Page 3 -->
-  <section id="contact" class="page">
-    <h1>Contact</h1>
-</html>
-    <p>Get in touch with us.</p>
-  </section>
-
-</body>
-</html>
+<nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/about">About</a></li>
+    <li><a href="/contact">Contact</a></li>
+  </ul>
+</nav>
+<body>
+<html>
