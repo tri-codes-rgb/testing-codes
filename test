@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Pure CSS Multi-Page Site</title>
@@ -29,6 +29,7 @@
   <!-- Page 3 -->
   <section id="contact" class="page">
     <h1>Contact</h1>
+</html>
     <p>Get in touch with us.</p>
   </section>
 
